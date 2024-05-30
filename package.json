@@ -2,8 +2,9 @@
   "name": "relaxation-technique-app",
   "version": "1.0.0",
   "scripts": {
+    "start": "parcel src/index.html",
     "build": "parcel build src/index.html --public-url ./",
-    "start": "parcel src/index.html"
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "cssnano": "^7.0.1",
