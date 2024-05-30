@@ -1,11 +1,6 @@
 import $ from 'jquery';
 
 $(document).ready(function() {
-  console.log('jQuery is working!');
-});
-
-
-$(document).ready(function() {
     $(".theme-toggle").on("click", function() {
         $("body").toggleClass("dark-theme");
     });
